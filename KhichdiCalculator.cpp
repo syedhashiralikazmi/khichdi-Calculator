@@ -5,41 +5,41 @@
 using namespace std;
 int main()
 {
-	//	Q1 - variables
+	//	Tool 1 - variables
 	double originalBill = 0.0;
 	double discountAmount = 0.0;
 	double finalBill = 0.0;
 
-	// Q2 - variables
+	// Tool 2 - variables
 	double costPrice = 0.0;
 	double sellingPrice =0.0;
 
-	// Q3 - variable
+	// Tool 3 - variable
 	double monthlyIncome = 0.0;
 
-	// Q4 - variables
+	// Tool 4 - variables
 	double orderAmount = 0.0;
 	char isMemberPremium = 'n';
 
-	// Q5 - variables
+	// Tool 5 - variables
 	float serviceYear = 0.0; // I use double because may be someone service year would be 5.5 year or 1.5 etc.
 	int employeePerfomanceRating = 0;
 
-	// Q6 - variables
+	// Tool 6 - variables
 	double valueToConvert =0.0;
 	double convertedValue = 0.0;
 	int choice = 0;
 
 	int selectQuestion = 0;
 	cout << "\n========================================\n";
-	cout << "  81024 Programming Fundamental - Asg 2  \n";
+	cout << "             Khichdi Caculator            \n";
 	cout << "========================================\n";
-	cout << "  [1] Question 1\n";
-	cout << "  [2] Question 2\n";
-	cout << "  [3] Question 3\n";
-	cout << "  [4] Question 4\n";
-	cout << "  [5] Question 5\n";
-	cout << "  [6] Question 6\n";
+	cout << "  [1] Electricity Bill Calculator\n";
+	cout << "  [2] Profit & Loss Finder \n";
+	cout << "  [3] Income Classifier\n";
+	cout << "  [4] Free Delivery checker \n";
+	cout << "  [5] Employee Bonus Calculator \n";
+	cout << "  [6] Unit Convertor\n";
 	cout << "----------------------------------------\n";
 	cout << " Enter your selection (1-6): ";
 	cin >> selectQuestion;
