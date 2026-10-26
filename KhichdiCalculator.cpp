@@ -1,5 +1,7 @@
 /* 
-  
+The Khichdi Calculator is a console-based utility tool that combines financial, conversion, and classification features in one place. 
+Operating within defined calculation criteria and limits, it provides a fast, all-in-one menu for handling standard daily tasks right from your terminal.  
+@Programmer: Syed Hashir Ali Kazmi
 */
 #include<iostream>
 using namespace std;
