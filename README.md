@@ -6,7 +6,7 @@
 
 ## 📌 Overview
 
-The **Khichdi Calculator** is an all-in-one CLI (Command Line Interface) utility tool designed to solve everyday calculations efficiently. Instead of opening multiple apps or websites, Khichdi Calculator brings together financial, conversion, and classification features under one simple console menu.
+The Khichdi Calculator is a console-based utility tool that combines financial, conversion, and classification features in one place. Operating within defined calculation criteria and limits, it provides a fast, all-in-one menu for handling standard daily tasks right from your terminal.
 
 ---
 
@@ -27,24 +27,25 @@ The **Khichdi Calculator** is an all-in-one CLI (Command Line Interface) utility
 
 ### Prerequisites
 
-Make sure you have the required runtime environment installed for your programming language (e.g., Python 3.x, C++, Java, or Node.js depending on your build).
+Make sure you have the required runtime environment installed for your programming language (e.g: mingw, clang or gcc or simply install Visual Studio 
 
 ### Installation
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/khichdi-calculator.git
+   git clone https://github.com/syedhashiralikazmi/khichdi-Calculator.git
    ```
 
 2. **Navigate to the Project Directory:**
    ```bash
-   cd khichdi-calculator
+   cd khichdi-Calculator
    ```
 
-3. **Run the Application:**
-   *(Example for Python)*
+3. **Run the code:**
+   Use any software like VS IDE, VS code or Dev Cpp or run on terminal
    ```bash
-   python main.py
+   gcc KhichdiCalculator.cpp -o khichdiCalculator
+   ./khichdiCalculator
    ```
 
 ---
@@ -54,9 +55,11 @@ Make sure you have the required runtime environment installed for your programmi
 1. Launch the application from your console.
 2. Select a tool from the main menu by typing its corresponding number:
    - `[1]` Electricity Bill Calculator
-   - `[2]` Unit Converter
+   - `[2]` Profit & Loss Finder 
    - `[3]` Income Classifier
-   - `[4]` Profit & Loss Finder
+   - `[4]` Free Delivery checker 
+   - `[5]` Employee Bonus Calculator
+   - `[6]` Unit Convertor
 3. Follow the on-screen prompts to input your numbers and view immediate results!
 
 ---
@@ -77,3 +80,5 @@ Feel free to check out the [issues page](https://github.com/syedhashiralikazmi/k
 ## 📜 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+@SPORIMEstudio
